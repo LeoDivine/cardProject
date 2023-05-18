@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="topheader">
+            <h2>Product Catalogue</h2>
+        </div>
+        <div class="container">
+            <div class="cardcontainer">
+                
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown()" class="dropdown">
+                            <i title="Options" id="dropdown" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image" class="cardimage">
+                            <img src="imgsrc/newage.jpg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>New Age Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal">More</button>
+                            <i onclick="clicked()" id="likebtn" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">New Age Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 2 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown1()" class="dropdown">
+                            <i title="Options" id="dropdown1" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont1"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image1" class="cardimage">
+                            <img src="imgsrc/abizotpowerbank.jpg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Abizot Power Bank</h5>
+                            <p>20,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal1">More</button>
+                            <i onclick="clicked1()" id="likebtn1" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Abizot Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 20,000Watts</p>
+                                        <p><b>Number of ports:</b> 2 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown2()" class="dropdown">
+                            <i title="Options" id="dropdown2" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont2"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image2" class="cardimage">
+                            <img src="imgsrc/samsung.jpg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Samsung Power Bank</h5>
+                            <p>20,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal2">More</button>
+                            <i onclick="clicked2()" id="likebtn2" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel2">Samsung Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 20,000Watts</p>
+                                        <p><b>Number of ports:</b> 2 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown3()" class="dropdown">
+                            <i title="Options" id="dropdown3" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont3"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image3" class="cardimage">
+                            <img src="imgsrc/Tecno.jpg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Tecno Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal3">More</button>
+                            <i onclick="clicked3()" id="likebtn3" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel3">Tecno Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 1 port</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown4()" class="dropdown">
+                            <i title="Options" id="dropdown4" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont4"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image4" class="cardimage">
+                            <img src="imgsrc/redmi.webp" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Redmi Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal4">More</button>
+                            <i onclick="clicked4()" id="likebtn4" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel4">Redmi Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 1 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown5()" class="dropdown">
+                            <i title="Options" id="dropdown5" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont5"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image5" class="cardimage">
+                            <img src="imgsrc/aukey.jpg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Aukey Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal5">More</button>
+                            <i onclick="clicked5()" id="likebtn5" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel5">Aukey Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 2 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown6()" class="dropdown">
+                            <i title="Options" id="dropdown6" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont6"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image6" class="cardimage">
+                            <img src="imgsrc/samsungg.webp" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Samsung Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal6">More</button>
+                            <i onclick="clicked6()" id="likebtn6" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel6">Samsung Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 1 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbody">
+                    <div class="card">
+                        <div onclick="showDropdown7()" class="dropdown">
+                            <i title="Options" id="dropdown7" class="dropbtn fa fa-2x fa-ellipsis-vertical"></i>
+                            <div id="dropdowncont7"  class="dropdowncont">
+                                <a href="">Buy now</a>
+                                <hr>
+                                <a href="">Similar products</a>
+                                <hr>
+                                <a href="">Website</a>
+                            </div>
+                        </div>
+                        
+                        <div id="image7" class="cardimage">
+                            <img src="imgsrc/xiamoi.jpeg" alt="">
+                        </div>
+                        <div class="cardtext">
+                            <h5>Xaomi Power Bank</h5>
+                            <p>10,000</p>
+                            <p>mAh</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente mollitia tempore rerum.....
+                            </p>
+                        </div>
+                        <div class="cardreactions">
+                            <button  data-bs-toggle="modal" data-bs-target="#exampleModal7">More</button>
+                            <i onclick="clicked7()" id="likebtn7" class="fa likebtn fa-2x fa-heart"></i>
+                        </div>
+                        <!--Modal-->
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel7">Xaaomi Power Bank</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><b>Description:</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum soluta sed repellendus dolores numquam! Quia cum possimus voluptate 
+                                            ipsum debitis dolorum pariatur sed, dicta sit cumque! Cum tenetur dignissimos adipisci.</p>
+                                        <p><b>Capacity:</b> 10,000Watts</p>
+                                        <p><b>Number of ports:</b> 2 ports</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

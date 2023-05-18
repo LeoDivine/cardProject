@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topheader{
+    background-color: #000;
+    height: 3.5rem;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.cardcontainer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.cardbody{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.dropdown{
+    position: absolute;
+    z-index: 1000;
+}
+
+.dropdowncont{
+    display: none;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-color: #d6d5d5;
+    width: 150px;
+    height: 130px;
+    line-height: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 9px 0px #333;
+}
+
+.dropdowncont a{
+    color: #000;
+    text-decoration: none;
+}
+
+.show{
+    display: inline;
+}
+
+.dropdown i{
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card{
+    height: 400px;
+    box-shadow: 0.3px 0.3px 5px 0.3px #6b6b6b;
+}
+
+.card .cardimage{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.card .cardimage img{
+    width: 100%;
+}
+
+.card .cardtext{
+    margin-top: 150px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.card .cardtext p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: bold;
+}
+.card .cardtext p:nth-of-type(2){
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.card .cardtext p:nth-of-type(3){
+    font-size: 13px;
+    margin-top: -4px;
+    text-align: left;
+}
+
+.cardtext h5{
+    font-weight: bold;
+}
+
+.cardreactions{
+    width: 100%;
+    background-color: #000;
+    height: 68px;
+    margin-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cardreactions button{
+    background-color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    margin-top: 13px;
+    width: 30%;
+    position: absolute;
+    margin-left: 14px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+.cardreactions .likebtn{
+    color: #fff;
+    position: absolute;
+    margin-top: 13px;
+    right: 0;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .cardbody{
+        width: 30%;
+    }
+}
+@media (max-width: 900px) {
+    .cardbody{
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    .cardbody{
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .card .cardtext{
+        margin-top: 160px;
+    }
+    .cardreactions{
+        margin-top: 30px;
+    }
+    .cardbody{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .card{
+        height: 440px;
+    }
+}
+
+@media (max-width: 420px) {
+    .card .cardtext{
+        margin-top: 177px;
+    }
+    .cardbody{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    .card .cardtext{
+        margin-top: 160px;
+    }
+    .cardbody{
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .card .cardtext{
+        margin-top: 130px;
+    }
+    .cardbody{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .cardreactions{
+        margin-top: 60px;
+    }
+}
